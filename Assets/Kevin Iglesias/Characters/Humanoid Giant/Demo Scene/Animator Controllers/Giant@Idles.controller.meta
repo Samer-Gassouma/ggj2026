@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8843c7bb5ee1fe44ca3049b0b062d069
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215962
+  packageName: Giant Animations FREE
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/Characters/Humanoid Giant/Demo Scene/Animator
+    Controllers/Giant@Idles.controller
+  uploadId: 719181

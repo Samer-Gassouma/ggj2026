@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3657934bdaa9bd747935c9b0cc6c54fa
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215962
+  packageName: Giant Animations FREE
+  packageVersion: 1.1
+  assetPath: Assets/Kevin Iglesias/Characters/Humanoid Giant/Demo Scene/Animator
+    Controllers/Giant@WalkBackwardLeft.controller
+  uploadId: 719181

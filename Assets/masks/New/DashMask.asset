@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54fc368caa347e24faa62b869cdb963a, type: 3}
+  m_Name: DashMask
+  m_EditorClassIdentifier: Assembly-CSharp::DashMaskAbility
+  displayName: Dash
+  description: 
+  icon: {fileID: -9039637696051797941, guid: ffa8f09c12a29224bb37f3a528a9d475, type: 3}
+  maskColor: {r: 1, g: 1, b: 1, a: 1}
+  superpowerUnlocked: 0
+  superpowerIcon: {fileID: 21300000, guid: 3f153c5bd5115944abdc5e1d80b9c429, type: 3}
+  superpowerDescription: 
+  dashDistance: 8
+  dashSpeed: 15
+  dashCooldown: 1
+  explosionForce: 1.5
+  explosionRadius: 0.5
+  upwardsModifier: 1
+  dashFadeTime: 0.2
+  jumpBoost: 10
+  extraJumps: 1
+  maxAirDashChains: 2
+  timeSlowScale: 0.3
+  timeSlowDuration: 0.5

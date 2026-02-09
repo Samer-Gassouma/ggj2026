@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4108019657509103796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1798960188765009071}
+  m_Layer: 0
+  m_Name: bosscontainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1798960188765009071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4108019657509103796}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 6, z: -15.602351}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4300933766285611229}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5224545625703975097
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1798960188765009071}
+    m_Modifications:
+    - target: {fileID: 1703773224633517905, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: handSocketR
+      value: 
+      objectReference: {fileID: 8098363598538085153}
+    - target: {fileID: 1703773224633517905, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: shootCenter
+      value: 
+      objectReference: {fileID: 6923714144826137132}
+    - target: {fileID: 1703773224633517905, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: bigRockPrefab
+      value: 
+      objectReference: {fileID: 5866021571314206109, guid: 1a01c4aaa35a15c429b0a25d080c92c5, type: 3}
+    - target: {fileID: 1703773224633517905, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: smallRockPrefab
+      value: 
+      objectReference: {fileID: 3637741937702941672, guid: fae76f374c2dc2249b7568eb7e0328be, type: 3}
+    - target: {fileID: 1703773224633517905, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: playerMask.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 4098973137360198552, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.068185
+      objectReference: {fileID: 0}
+    - target: {fileID: 4098973137360198552, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.108354
+      objectReference: {fileID: 0}
+    - target: {fileID: 4098973137360198552, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.038542707
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036207546811482164, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1710819765137934789}
+    - target: {fileID: 5036207546811482164, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: bossAttacks
+      value: 
+      objectReference: {fileID: 6855697065099546600}
+    - target: {fileID: 7798693945120583105, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_Height
+      value: 1.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 7798693945120583105, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_Center.y
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299761283390494820, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299761283390494820, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299761283390494820, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299761283390494820, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299761283390494820, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.351745
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299761283390494820, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299761283390494820, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.85902387
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299761283390494820, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5119356
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299761283390494820, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299761283390494820, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299761283390494820, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299761283390494820, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299761283390494820, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299761283390494820, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9114470242695178199, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+      propertyPath: m_Name
+      value: rockBoss
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+--- !u!95 &1710819765137934789 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6863306696596095356, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+  m_PrefabInstance: {fileID: 5224545625703975097}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4300933766285611229 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8299761283390494820, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+  m_PrefabInstance: {fileID: 5224545625703975097}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6855697065099546600 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1703773224633517905, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+  m_PrefabInstance: {fileID: 5224545625703975097}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa2393814ea2ef04c9a51274eaa6f854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+--- !u!4 &6923714144826137132 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2924148717422219925, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+  m_PrefabInstance: {fileID: 5224545625703975097}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8098363598538085153 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4098973137360198552, guid: b9ed2c32922e35d4e9ef11e80b9555dd, type: 3}
+  m_PrefabInstance: {fileID: 5224545625703975097}
+  m_PrefabAsset: {fileID: 0}
