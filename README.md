@@ -37,9 +37,11 @@ In the final stage, the player faces a **powerful boss battle** that tests all t
 
 Here's the intro cutscene animation created by **Rayen**:
 
-<video src="https://github.com/Samer-Gassouma/ggj2026/raw/main/Assets/StreamingAssets/animationafteredit.mp4" controls width="100%">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/your-video-id-here
+
+> **Note:** To properly embed the video in GitHub, upload `animationafteredit.mp4` by dragging it into a GitHub issue or pull request, then copy the generated URL and paste it here. GitHub will automatically create a video player.
+>
+> Or [**click here to download and watch the cutscene**](https://github.com/Samer-Gassouma/ggj2026/raw/main/Assets/StreamingAssets/animationafteredit.mp4)
 
 ---
 
