@@ -36,8 +36,7 @@ In the final stage, the player faces a **powerful boss battle** that tests all t
 ## Cutscene
 
 Here's the intro cutscene animation created by **Rayen**:
-
-https://github.com/user-attachments/assets/your-video-id-here
+https://github.com/user-attachments/assets/2ae4b660-24c6-45a2-ba42-3e201421e42b
 
 > **Note:** To properly embed the video in GitHub, upload `animationafteredit.mp4` by dragging it into a GitHub issue or pull request, then copy the generated URL and paste it here. GitHub will automatically create a video player.
 >
